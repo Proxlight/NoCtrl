@@ -3,6 +3,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { StoreHero } from "@/components/store/StoreHero";
 import { ProductCarousel } from "@/components/store/ProductCarousel";
+import { ProductGrid } from "@/components/store/ProductGrid";
 import { ProductDetails } from "@/components/store/ProductDetails";
 
 const Store = () => {
@@ -10,7 +11,7 @@ const Store = () => {
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       <Navigation />
       <StoreHero />
-      <ProductCarousel />
+      <ProductGrid />
       <ProductDetails />
       <Footer />
     </div>

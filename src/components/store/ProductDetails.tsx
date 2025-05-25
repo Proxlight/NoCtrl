@@ -12,7 +12,7 @@ export const ProductDetails = () => {
   ];
 
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+    <section id="product-details" className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="space-y-6 sm:space-y-8">
@@ -59,32 +59,12 @@ export const ProductDetails = () => {
           </div>
 
           <div className="lg:order-first">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10">
-                  <img
-                    src="/lovable-uploads/2a825fa1-074b-4556-84e0-a400e34347dd.png"
-                    alt="3D Avatar Sample 1"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10">
-                  <img
-                    src="/lovable-uploads/cc044a15-7d2e-40e7-9ea7-613a23f663f1.png"
-                    alt="3D Avatar Sample 3"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <div className="pt-8">
-                <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10">
-                  <img
-                    src="/lovable-uploads/fb337547-ebee-4b88-9c0e-8b10fcb3fec1.png"
-                    alt="3D Avatar Sample 2"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
+            <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 border border-white/10">
+              <img
+                src="/lovable-uploads/8111e567-c7bc-4a84-b171-600de49e3d6f.png"
+                alt="3D Avatar Collection"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
