@@ -27,8 +27,15 @@ export const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="text-2xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Noctrl
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/b50d1c4a-492d-44bb-94fc-bead253a5a69.png" 
+              alt="Noctrl Logo" 
+              className="w-10 h-10"
+            />
+            <div className="text-2xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+              Noctrl
+            </div>
           </div>
 
           {/* Desktop Navigation */}
